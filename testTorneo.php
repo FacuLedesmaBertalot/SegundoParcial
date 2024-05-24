@@ -96,7 +96,7 @@ echo "Premios para cada partido: \n";
 $partidos = [$partidoA, $partidoB, $partidoC];
 foreach ($partidos as $partido) {
     $premioPartido = $objTorneo->calcularPremioPartido($partido);
-    echo "Equipo ganador: " . $premioPartido['equipoGanador']->getNombre() . "\n";
+    echo "Equipo ganador: " . $premioPartido['equipoGanador'] . "\n";
     echo "Premio del partido: " . $premioPartido['premioPartido'][0] . "\n";
 }
 
