@@ -69,11 +69,11 @@ if ($partidoB == null) {
 }
 
 $partidoC = $objTorneo->ingresarPartido($objE9, $objE10, '2024-05-25', 'Basquetbol');
-if ($partidoB == null) {
+if ($partidoC == null) {
     echo "No se pudo ingresar el partido de Basquet.\n";
 } else {
     echo "Partido de Basquet ingresado:\n";
-    echo $partidoB . "\n";
+    echo $partidoC . "\n";
     echo "Cantidad de equipos en el torneo: " . $partidoC->getIdpartido() . "\n";
 }
 
